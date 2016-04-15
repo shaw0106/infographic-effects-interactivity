@@ -32,8 +32,8 @@ $lockbottomin.waypoint(function () {
 }, { offset: '75%'});
 
 // expand chart
-// $orangechart.on('mouseover', function () {
-//  $orangechart.toggleClass('expand');
-// });
+ $chartin.on('mouseover', function () {
+  $orangechart.addClass('expand');
+ });
 
 // $('.ball').css('animation-name', 'change-colour');

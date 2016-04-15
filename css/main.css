@@ -245,7 +245,8 @@ body {
 
 .lineupin:hover .blue-group {
   transform: scale(.95);
-  transform-origin: center;;
+  transform-origin: center;
+}
 
 .coin1 {
   transition: all .5s ease-in-out;
@@ -290,47 +291,47 @@ body {
 /*------svg animations with js--------------*/
 .biglockin {
   opacity: 0;
-  transition: all 5s ease-in;
+  transition: all 10ms ease-in;
 }
 
 .lineupin {
   opacity: 0;
-  transition: all 20s ease-in;
+  transition: all 95ms ease-in;
 }
 
 .chartin {
   opacity: 0;
-  transition: all 20s ease-in;
+  transition: all 95ms ease-in;
 }
 
 .coinin {
   opacity: 0;
-  transition: all 20s ease-in;
+  transition: all 95ms ease-in;
 }
 
 .bandsin {
   opacity: 0;
-  transition: all 20s ease-in;
+  transition: all 95ms ease-in;
 }
 
 .lockbottomin {
   opacity: 0;
-  transition: all 20s ease-in;
+  transition: all 95ms ease-in;
 }
 
 .js-appear-animate {
   opacity: 1;
 }
 
-/*-------Chart expand-----------
+/*-------Chart expand-----------*/
 
 .orangechart {
-  width: 0;
+  transform: scaleX(0);
   transition: all .5s linear;
 }
 
 .expand {
-  max-width: 175px;
+  transform: scaleX(1);
   transition: all .5s linear;
   transform-origin: left;
 }
@@ -338,4 +339,3 @@ body {
 .bluechart {
 
 }
-*/
