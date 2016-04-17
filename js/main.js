@@ -6,6 +6,7 @@ var $bandsin = $('.bandsin');
 var $lockbottomin = $('.lockbottomin');
 var $lockbottomin = $('.lockbottomin');
 var $orangechart = $('.orangechart');
+var $bluechart = $('.bluechart');
 
 $biglockin.waypoint(function () {
   $biglockin.addClass('js-appear-animate');
@@ -36,4 +37,11 @@ $lockbottomin.waypoint(function () {
   $orangechart.addClass('expand');
  });
 
+ $chartin.on('mouseover', function () {
+  $bluechart.addClass('expand');
+ });
+
+$titlein.on('mouseover', function() {
+  $('.title').addClass('titlechange');
+})
 // $('.ball').css('animation-name', 'change-colour');
