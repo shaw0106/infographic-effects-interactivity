@@ -9,79 +9,74 @@ var $orangechart = $('.orangechart');
 var $bluechart = $('.bluechart');
 
 $biglockin.waypoint(function (direction) {
-	if (direction == 'down') {
-		$biglockin.addClass('js-appear-animate');
-	} else {
-		$biglockin.removeClass('js-appear-animate');
-	}
-}, { offset: '70%' });
+  if (direction == 'down') {
+    $biglockin.addClass('js-appear-animate');
+  } else {
+    $biglockin.removeClass('js-appear-animate');
+  }
+}, {offset: '70%'});
 
 $lineupin.waypoint(function (direction) {
-	if (direction == 'down') {
-		$lineupin.addClass('js-appear-animate');
-	} else {
-		$lineupin.removeClass('js-appear-animate');
-	}
-}, { offset: '65%' });
+  if (direction == 'down') {
+    $lineupin.addClass('js-appear-animate');
+  } else {
+    $lineupin.removeClass('js-appear-animate');
+  }
+}, {offset: '65%'});
 
 $chartin.waypoint(function (direction) {
-	if (direction == 'down') {
-		$chartin.addClass('js-appear-animate');
-	} else {
-		$chartin.removeClass('js-appear-animate');
-	}
-}, { offset: '70%' });
+  if (direction == 'down') {
+    $chartin.addClass('js-appear-animate');
+  } else {
+    $chartin.removeClass('js-appear-animate');
+  }
+}, {offset: '70%'});
 
 $coinin.waypoint(function (direction) {
-	if (direction == 'down') {
-		$coinin.addClass('js-appear-animate');
-	} else {
-		$coinin.removeClass('js-appear-animate');
-	}
-}, { offset: '65%' });
+  if (direction == 'down') {
+    $coinin.addClass('js-appear-animate');
+  } else {
+    $coinin.removeClass('js-appear-animate');
+  }
+}, {offset: '65%'});
 
 $bandsin.waypoint(function (direction) {
-	if (direction == 'down') {
-		$bandsin.addClass('js-appear-animate');
-	} else {
-		$bandsin.removeClass('js-appear-animate');
-	}
-}, { offset: '70%' });
+  if (direction == 'down') {
+    $bandsin.addClass('js-appear-animate');
+  } else {
+    $bandsin.removeClass('js-appear-animate');
+  }
+}, {offset: '70%'});
 
 $lockbottomin.waypoint(function (direction) {
-	if (direction == 'down') {
-		$lockbottomin.addClass('js-appear-animate');
-	} else {
-		$lockbottomin.removeClass('js-appear-animate');
-	}
-}, { offset: '65%' });
+  if (direction == 'down') {
+    $lockbottomin.addClass('js-appear-animate');
+  } else {
+    $lockbottomin.removeClass('js-appear-animate');
+  }
+}, {offset: '65%'});
 
 // expand chart
- $chartin.on('mouseover', function () {
+$chartin.on('mouseover', function () {
   $orangechart.addClass('expand');
- });
+});
 
- $chartin.on('mouseout', function () {
+$chartin.on('mouseout', function () {
   $orangechart.removeClass('expand');
- });
+});
 
- $chartin.on('mouseover', function () {
+$chartin.on('mouseover', function () {
   $bluechart.addClass('expand');
- });
+});
 
- $chartin.on('mouseout', function () {
+$chartin.on('mouseout', function () {
   $bluechart.removeClass('expand');
- });
+});
 
-// $titlein.on('mouseover', function() {
-//   $('.title').addClass('titlechange');
-// })
-// $('.ball').css('animation-name', 'change-colour');
-
-$('.titlein').on('mouseover', function() {
+$('.titlein').on('mouseover', function () {
   $('.headerTitle').addClass('titlechange');
 });
 
-$('.titlein').on('mouseout', function() {
+$('.titlein').on('mouseout', function () {
   $('.headerTitle').removeClass('titlechange');
 });
