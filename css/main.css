@@ -249,41 +249,41 @@ body {
 }
 
 .coin1 {
-  transition: all .5s ease-in-out;
+  transition: all .75s ease-in-out;
   transform: scale(1);
 }
 
-.coinin:hover .coin1 {
+.coin1:hover {
   transform: scale(1.1);
   transform-origin: center;
 }
 
 .coin2 {
-  transition: all .5s ease-in-out;
+  transition: all .75s ease-in-out;
   transform: scale(1);
 }
 
-.coinin:hover .coin2 {
+.coin2:hover {
   transform: scale(1.1);
   transform-origin: center;
 }
 
 .coin3 {
-  transition: all .5s ease-in-out;
+  transition: all .75s ease-in-out;
   transform: scale(1);
 }
 
-.coinin:hover .coin3 {
+.coin3:hover {
   transform: scale(1.1);
   transform-origin: center;
 }
 
 .coin4 {
-  transition: all .5s ease-in-out;
+  transition: all .75s ease-in-out;
   transform: scale(1);
 }
 
-.coinin:hover .coin4 {
+.coin4:hover {
   transform: scale(1.1);
   transform-origin: center;
 }
