@@ -7,8 +7,8 @@ var $lockbottomin = $('.lockbottomin');
 var $lockbottomin = $('.lockbottomin');
 var $orangechart = $('.orangechart');
 var $bluechart = $('.bluechart');
-var $top = $(".top");
-var $bottom = $(".bottom");
+var $top = $('.top');
+var $bottom = $('.bottom');
 
 $biglockin.waypoint(function (direction) {
   if (direction == 'down') {
@@ -74,9 +74,6 @@ $chartin.on('mouseover', function () {
 $chartin.on('mouseout', function () {
   $bluechart.removeClass('expand');
 });
-
-var $btnBounce = $('.btn-bounce');
-var $circle = $('.circle');
 
 $top.on('mouseover', function () {
   $top.addClass('zoomin');
