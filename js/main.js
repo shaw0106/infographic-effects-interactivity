@@ -8,29 +8,53 @@ var $lockbottomin = $('.lockbottomin');
 var $orangechart = $('.orangechart');
 var $bluechart = $('.bluechart');
 
-$biglockin.waypoint(function () {
-  $biglockin.addClass('js-appear-animate');
-}, { offset: '75%'});
+$biglockin.waypoint(function (direction) {
+	if (direction == 'down') {
+		$biglockin.addClass('js-appear-animate');
+	} else {
+		$biglockin.removeClass('js-appear-animate');
+	}
+}, { offset: '30%' });
 
-$lineupin.waypoint(function () {
-  $lineupin.addClass('js-appear-animate');
-}, { offset: '75%'});
+$lineupin.waypoint(function (direction) {
+	if (direction == 'down') {
+		$lineupin.addClass('js-appear-animate');
+	} else {
+		$lineupin.removeClass('js-appear-animate');
+	}
+}, { offset: '30%' });
 
-$chartin.waypoint(function () {
-  $chartin.addClass('js-appear-animate');
-}, { offset: '75%'});
+$chartin.waypoint(function (direction) {
+	if (direction == 'down') {
+		$chartin.addClass('js-appear-animate');
+	} else {
+		$chartin.removeClass('js-appear-animate');
+	}
+}, { offset: '30%' });
 
-$coinin.waypoint(function () {
-  $coinin.addClass('js-appear-animate');
-}, { offset: '75%'});
+$coinin.waypoint(function (direction) {
+	if (direction == 'down') {
+		$coinin.addClass('js-appear-animate');
+	} else {
+		$coinin.removeClass('js-appear-animate');
+	}
+}, { offset: '30%' });
 
-$bandsin.waypoint(function () {
-  $bandsin.addClass('js-appear-animate');
-}, { offset: '75%'});
+$bandsin.waypoint(function (direction) {
+	if (direction == 'down') {
+		$bandsin.addClass('js-appear-animate');
+	} else {
+		$bandsin.removeClass('js-appear-animate');
+	}
+}, { offset: '80%' });
 
-$lockbottomin.waypoint(function () {
-  $lockbottomin.addClass('js-appear-animate');
-}, { offset: '75%'});
+$lockbottomin.waypoint(function (direction) {
+	if (direction == 'down') {
+		$lockbottomin.addClass('js-appear-animate');
+	} else {
+		$lockbottomin.removeClass('js-appear-animate');
+	}
+}, { offset: '80%' });
 
 // expand chart
  $chartin.on('mouseover', function () {
@@ -41,7 +65,7 @@ $lockbottomin.waypoint(function () {
   $bluechart.addClass('expand');
  });
 
-$titlein.on('mouseover', function() {
-  $('.title').addClass('titlechange');
-})
+// $titlein.on('mouseover', function() {
+//   $('.title').addClass('titlechange');
+// })
 // $('.ball').css('animation-name', 'change-colour');

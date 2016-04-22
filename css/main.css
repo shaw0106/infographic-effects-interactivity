@@ -296,27 +296,27 @@ body {
 
 .lineupin {
   opacity: 0;
-  transition: all 95ms ease-in;
+  transition: all 10ms ease-in;
 }
 
 .chartin {
   opacity: 0;
-  transition: all 95ms ease-in;
+  transition: all 10ms ease-in;
 }
 
 .coinin {
   opacity: 0;
-  transition: all 95ms ease-in;
+  transition: all 10ms ease-in;
 }
 
 .bandsin {
   opacity: 0;
-  transition: all 95ms ease-in;
+  transition: all 10ms ease-in;
 }
 
 .lockbottomin {
   opacity: 0;
-  transition: all 95ms ease-in;
+  transition: all 10ms ease-in;
 }
 
 .js-appear-animate {
