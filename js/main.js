@@ -7,6 +7,8 @@ var $lockbottomin = $('.lockbottomin');
 var $lockbottomin = $('.lockbottomin');
 var $orangechart = $('.orangechart');
 var $bluechart = $('.bluechart');
+var $top = $(".top");
+var $bottom = $(".bottom");
 
 $biglockin.waypoint(function (direction) {
   if (direction == 'down') {
@@ -73,10 +75,13 @@ $chartin.on('mouseout', function () {
   $bluechart.removeClass('expand');
 });
 
-$('.titlein').on('mouseover', function () {
-  $('.headerTitle').addClass('titlechange');
+var $btnBounce = $('.btn-bounce');
+var $circle = $('.circle');
+
+$top.on('mouseover', function () {
+  $top.addClass('zoomin');
 });
 
-$('.titlein').on('mouseout', function () {
-  $('.headerTitle').removeClass('titlechange');
+$bottom.on('mouseout', function () {
+  $bottom.removeClass('zoomin');
 });

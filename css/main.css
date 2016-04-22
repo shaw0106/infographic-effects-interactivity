@@ -344,3 +344,35 @@ body {
   transition: all .5s linear;
   transition-delay: 10ms;
 }
+
+.top {
+  right: -100px;
+}
+
+.zoomin {
+  right: -100px;
+  animation: zoomin 1s both;
+}
+
+@keyframes zoomin {
+
+  0% {
+    left: 0;
+  }
+
+  25% {
+    left: 10px;
+  }
+
+  50% {
+    left: 20px;
+  }
+
+  75% {
+    left: 30px;
+  }
+
+  100% {
+    left: 40px;
+  }
+}
