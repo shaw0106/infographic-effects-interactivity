@@ -61,8 +61,16 @@ $lockbottomin.waypoint(function (direction) {
   $orangechart.addClass('expand');
  });
 
+ $chartin.on('mouseout', function () {
+  $orangechart.removeClass('expand');
+ });
+
  $chartin.on('mouseover', function () {
   $bluechart.addClass('expand');
+ });
+
+ $chartin.on('mouseout', function () {
+  $bluechart.removeClass('expand');
  });
 
 // $titlein.on('mouseover', function() {

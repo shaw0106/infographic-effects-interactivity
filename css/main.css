@@ -291,32 +291,32 @@ body {
 /*------svg animations with js--------------*/
 .biglockin {
   opacity: 0;
-  transition: all 10ms ease-in;
+  transition: all 40ms ease-in;
 }
 
 .lineupin {
   opacity: 0;
-  transition: all 10ms ease-in;
+  transition: all 40ms ease-in;
 }
 
 .chartin {
   opacity: 0;
-  transition: all 10ms ease-in;
+  transition: all 40ms ease-in;
 }
 
 .coinin {
   opacity: 0;
-  transition: all 10ms ease-in;
+  transition: all 40ms ease-in;
 }
 
 .bandsin {
   opacity: 0;
-  transition: all 10ms ease-in;
+  transition: all 40ms ease-in;
 }
 
 .lockbottomin {
   opacity: 0;
-  transition: all 10ms ease-in;
+  transition: all 40ms ease-in;
 }
 
 .js-appear-animate {
