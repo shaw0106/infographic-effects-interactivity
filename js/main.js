@@ -76,9 +76,17 @@ $chartin.on('mouseout', function () {
 });
 
 $top.on('mouseover', function () {
-  $top.addClass('zoomin');
+  $top.toggleClass('zoom');
+});
+
+$top.on('mouseout', function () {
+  $top.removeClass('zoom');
+});
+
+$bottom.on('mouseover', function () {
+  $bottom.toggleClass('zoom');
 });
 
 $bottom.on('mouseout', function () {
-  $bottom.removeClass('zoomin');
+  $bottom.removeClass('zoom');
 });

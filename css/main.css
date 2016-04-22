@@ -346,33 +346,36 @@ body {
 }
 
 .top {
-  right: -100px;
+  left: -1000px;
 }
 
-.zoomin {
-  right: -100px;
-  animation: zoomin 1s both;
+.bottom {
+  left: -1000px;
 }
 
-@keyframes zoomin {
+.zoom {
+  animation: zoom 10ms ease-in;
+}
+
+@keyframes zoom {
 
   0% {
-    left: 0;
+    left: -1000px;
   }
 
   25% {
-    left: 10px;
+    left: -10px;
   }
 
   50% {
-    left: 20px;
+    left: 10px;
   }
 
   75% {
-    left: 30px;
+    left: 100px;
   }
 
   100% {
-    left: 40px;
+    left: 200px;
   }
 }
