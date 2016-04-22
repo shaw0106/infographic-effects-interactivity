@@ -249,43 +249,44 @@ body {
 }
 
 .coin1 {
-  transition: all .75s ease-in-out;
+  transition: all .50s ease-in-out;
   transform: scale(1);
+  transform-origin: 133px 192px;
 }
 
 .coin1:hover {
-  transform: scale(1.1);
-  transform-origin: center;
+  transform: scale(1.2);
 }
 
 .coin2 {
-  transition: all .75s ease-in-out;
+  transition: all .50s ease-in-out;
   transform: scale(1);
+  transform-origin: 358px 192px;
 }
 
 .coin2:hover {
-  transform: scale(1.1);
-  transform-origin: center;
+  transform: scale(1.2);
 }
 
 .coin3 {
-  transition: all .75s ease-in-out;
+  transition: all .50s ease-in-out;
   transform: scale(1);
+  transform-origin: 587px 192px;
 }
 
 .coin3:hover {
-  transform: scale(1.1);
-  transform-origin: center;
+  transform: scale(1.2);
+
 }
 
 .coin4 {
-  transition: all .75s ease-in-out;
+  transition: all .50s ease-in-out;
   transform: scale(1);
+  transform-origin: 836px 192px;
 }
 
 .coin4:hover {
-  transform: scale(1.1);
-  transform-origin: center;
+  transform: scale(1.2);
 }
 
 /*------svg animations with js--------------*/
@@ -343,7 +344,7 @@ body {
 
 /*----title-----*/
 
-.titlechange path:nth-child(1) {
+.titlechange {
   fill: #f09549;
   transition: all .5s linear;
   transition-delay: 10ms;

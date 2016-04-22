@@ -77,3 +77,11 @@ $lockbottomin.waypoint(function (direction) {
 //   $('.title').addClass('titlechange');
 // })
 // $('.ball').css('animation-name', 'change-colour');
+
+$('.titlein').on('mouseover', function() {
+  $('.headerTitle').addClass('titlechange');
+});
+
+$('.titlein').on('mouseout', function() {
+  $('.headerTitle').removeClass('titlechange');
+});
