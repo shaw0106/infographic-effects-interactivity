@@ -346,36 +346,28 @@ body {
 }
 
 .top {
-  left: -1000px;
+  transform: translateX(1000px);
 }
 
 .bottom {
-  left: -1000px;
+
 }
 
-.zoom {
-  animation: zoom 10ms ease-in;
+.zoomin {
+  animation: zoomin 1.5s forwards ease-in;
 }
 
-@keyframes zoom {
+@keyframes zoomin {
 
   0% {
-    left: -1000px;
-  }
-
-  25% {
-    left: -10px;
-  }
-
-  50% {
-    left: 10px;
+    transform: translateX(1000px);
   }
 
   75% {
-    left: 100px;
+    transform: translateX(-100px);
   }
 
   100% {
-    left: 200px;
+    transform: translateX(0);
   }
 }

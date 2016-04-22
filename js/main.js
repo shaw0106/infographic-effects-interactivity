@@ -75,18 +75,18 @@ $chartin.on('mouseout', function () {
   $bluechart.removeClass('expand');
 });
 
-$top.on('mouseover', function () {
-  $top.toggleClass('zoom');
+$bandsin.on('mouseover', function () {
+  $top.toggleClass('zoomin');
 });
 
-$top.on('mouseout', function () {
-  $top.removeClass('zoom');
+$bandsin.on('mouseout', function () {
+  $top.removeClass('zoomout');
 });
 
 $bottom.on('mouseover', function () {
-  $bottom.toggleClass('zoom');
+  $bottom.toggleClass('zoomin');
 });
 
 $bottom.on('mouseout', function () {
-  $bottom.removeClass('zoom');
+  $bottom.removeClass('zoomout');
 });
