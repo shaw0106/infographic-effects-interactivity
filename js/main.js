@@ -14,7 +14,7 @@ $biglockin.waypoint(function (direction) {
 	} else {
 		$biglockin.removeClass('js-appear-animate');
 	}
-}, { offset: '30%' });
+}, { offset: '70%' });
 
 $lineupin.waypoint(function (direction) {
 	if (direction == 'down') {
@@ -22,7 +22,7 @@ $lineupin.waypoint(function (direction) {
 	} else {
 		$lineupin.removeClass('js-appear-animate');
 	}
-}, { offset: '30%' });
+}, { offset: '65%' });
 
 $chartin.waypoint(function (direction) {
 	if (direction == 'down') {
@@ -30,7 +30,7 @@ $chartin.waypoint(function (direction) {
 	} else {
 		$chartin.removeClass('js-appear-animate');
 	}
-}, { offset: '30%' });
+}, { offset: '70%' });
 
 $coinin.waypoint(function (direction) {
 	if (direction == 'down') {
@@ -38,7 +38,7 @@ $coinin.waypoint(function (direction) {
 	} else {
 		$coinin.removeClass('js-appear-animate');
 	}
-}, { offset: '30%' });
+}, { offset: '65%' });
 
 $bandsin.waypoint(function (direction) {
 	if (direction == 'down') {
@@ -46,7 +46,7 @@ $bandsin.waypoint(function (direction) {
 	} else {
 		$bandsin.removeClass('js-appear-animate');
 	}
-}, { offset: '80%' });
+}, { offset: '70%' });
 
 $lockbottomin.waypoint(function (direction) {
 	if (direction == 'down') {
@@ -54,7 +54,7 @@ $lockbottomin.waypoint(function (direction) {
 	} else {
 		$lockbottomin.removeClass('js-appear-animate');
 	}
-}, { offset: '80%' });
+}, { offset: '65%' });
 
 // expand chart
  $chartin.on('mouseover', function () {
