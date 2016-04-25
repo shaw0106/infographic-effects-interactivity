@@ -379,7 +379,7 @@ body {
 @keyframes zoomout {
 
   0% {
-    transform: translateX(0px);
+    transform: translateX(0);
   }
 
   75% {
