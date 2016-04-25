@@ -350,7 +350,7 @@ body {
 }
 
 .bottom {
-
+  transform: translateX(1000px);
 }
 
 .zoomin {
@@ -369,5 +369,24 @@ body {
 
   100% {
     transform: translateX(0);
+  }
+}
+
+.zoomout {
+  animation: zoomout 1.5s forwards ease-in;
+}
+
+@keyframes zoomout {
+
+  0% {
+    transform: translateX(0px);
+  }
+
+  75% {
+    transform: translateX(-100px);
+  }
+
+  100% {
+    transform: translateX(1000px);
   }
 }

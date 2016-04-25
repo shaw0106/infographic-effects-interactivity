@@ -80,13 +80,13 @@ $bandsin.on('mouseover', function () {
 });
 
 $bandsin.on('mouseout', function () {
-  $top.removeClass('zoomout');
+  $top.removeClass('zoomin');
 });
 
-$bottom.on('mouseover', function () {
+$bandsin.on('mouseover', function () {
   $bottom.toggleClass('zoomin');
 });
 
-$bottom.on('mouseout', function () {
-  $bottom.removeClass('zoomout');
+$bandsin.on('mouseout', function () {
+  $bottom.removeClass('zoomin');
 });
