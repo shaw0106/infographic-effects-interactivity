@@ -9,6 +9,8 @@ var $orangechart = $('.orangechart');
 var $bluechart = $('.bluechart');
 var $top = $('.top');
 var $bottom = $('.bottom');
+var $titlein = $('.titlein');
+var $title = $('.title');
 
 $biglockin.waypoint(function (direction) {
   if (direction == 'down') {
@@ -89,4 +91,12 @@ $bandsin.on('mouseover', function () {
 
 $bandsin.on('mouseout', function () {
   $bottom.removeClass('zoomright');
+});
+
+$titlein.on('mouseover', function () {
+  $title.toggleClass('titlechange');
+});
+
+$titlein.on('mouseout', function () {
+  $title.removeClass('titlechange');
 });
