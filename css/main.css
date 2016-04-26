@@ -372,21 +372,21 @@ body {
   }
 }
 
-.zoomout {
-  animation: zoomout 1.5s forwards ease-in;
+.zoomright {
+  animation: zoomright 1.5s forwards ease-in;
 }
 
-@keyframes zoomout {
+@keyframes zoomright {
 
   0% {
-    transform: translateX(0);
+    transform: translateX(-1000px);
   }
 
   75% {
-    transform: translateX(-100px);
+    transform: translateX(100px);
   }
 
   100% {
-    transform: translateX(1000px);
+    transform: translateX(0);
   }
 }

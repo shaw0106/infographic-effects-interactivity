@@ -84,9 +84,9 @@ $bandsin.on('mouseout', function () {
 });
 
 $bandsin.on('mouseover', function () {
-  $bottom.toggleClass('zoomin');
+  $bottom.toggleClass('zoomright');
 });
 
 $bandsin.on('mouseout', function () {
-  $bottom.removeClass('zoomin');
+  $bottom.removeClass('zoomright');
 });
