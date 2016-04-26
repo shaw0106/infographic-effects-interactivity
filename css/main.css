@@ -390,3 +390,64 @@ body {
     transform: translateX(0);
   }
 }
+
+.mail {
+  transition: all .50s ease-in-out;
+  transform: scale(1);
+  transform-origin: 133px 192px;
+}
+
+.mail:hover {
+  transform: scale(1.2);
+}
+
+.question {
+  transition: all .50s ease-in-out;
+  transform: scale(1);
+  transform-origin: 358px 192px;
+}
+
+.question:hover {
+  transform: scale(1.2);
+}
+
+.skim {
+  transition: all .50s ease-in-out;
+  transform: scale(1);
+  transform-origin: center;
+}
+
+.skim:hover {
+  transform: scale(1.2);
+
+}
+
+.hack {
+  transition: all .50s ease-in-out;
+  transform: scale(1);
+  transform-origin: center;
+}
+
+.hack:hover {
+  transform: scale(1.2);
+}
+
+.dive {
+  transition: all .50s ease-in-out;
+  transform: scale(1);
+  transform-origin: center;
+}
+
+.dive:hover {
+  transform: scale(1.2);
+}
+
+.surf {
+  transition: all .50s ease-in-out;
+  transform: scale(1);
+  transform-origin: 892px 307px;
+}
+
+.surf:hover {
+  transform: scale(1.2);
+}
